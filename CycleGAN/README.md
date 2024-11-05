@@ -50,6 +50,3 @@ python train_dist.py --[args]
 
 ## Monet2Photo
 <p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/022fb04a-bbef-4ff7-9f86-973cf70a596c" width="50%" height="50%"></p>
-
-## Summer2Winter
-<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/022fb04a-bbef-4ff7-9f86-973cf70a596" width="50%" height="50%"></p>
