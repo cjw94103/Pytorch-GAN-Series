@@ -43,10 +43,13 @@ python train_dist.py --[args]
 <p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/022fb04a-bbef-4ff7-9f86-973cf70a596c" width="50%" height="50%"></p>
 
 ## Facade
-<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/022fb04a-bbef-4ff7-9f86-973cf70a596c" width="50%" height="50%"></p>
+<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/89bf38b9-c9ef-4b36-95b7-626fc181d7b6" width="50%" height="50%"></p>
 
 ## Horse2Zebra
-<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/022fb04a-bbef-4ff7-9f86-973cf70a596c" width="50%" height="50%"></p>
+<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/d43f925b-9a9b-449b-b533-48ba22759e3b" width="50%" height="50%"></p>
 
 ## Monet2Photo
-<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/022fb04a-bbef-4ff7-9f86-973cf70a596c" width="50%" height="50%"></p>
+<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/636056ad-03b5-41c8-bfc6-fedc7bd3ba83" width="50%" height="50%"></p>
+
+## Summer2Winter
+<p align="center"><img src="https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/60936d84-434d-44c3-bb18-c95ae8229d25" width="50%" height="50%"></p>
