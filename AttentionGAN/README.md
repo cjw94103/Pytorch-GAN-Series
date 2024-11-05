@@ -29,16 +29,13 @@ data
 │   └── trainB
 ```
 # 3. Train
-먼저 config.json 파일을 만들어야 합니다. make_config.ipynb 파일을 참고하여 config 파일을 만들어주세요.
-학습 또는 추론에 사용 할 특정 GPU의 선택을 원하지 않는 경우 코드에서 os.environ["CUDA_VISIBLE_DEVICES"]="1"를 주석처리 해주세요.
-
-- Single GPU인 경우 config에서 multi_gpu_flag로 설정하고 아래와 같이 명령어를 실행시켜주세요.
+- Single GPU인 경우 train.py를 실행하세요. args에 대한 자세한 내용은 코드를 참고해주세요
 ```python
-python train.py --config_path /path/your/config_path
+python train.py --[args]
 ```
-- Multi GPU의 경우 Pytorch에서 지원하는 DistributedDataParallel로 분산 학습을 구현하였습니다. multi_gpu_flag를 True, Port_num를 입력하고 아래와 같이 명령어를 실행시켜주세요.
+- Multi GPU의 경우 Pytorch에서 지원하는 DistributedDataParallel로 분산 학습을 구현하였습니다. multi_gpu_flag를 True, Port_num를 입력하고 train_dist.py를 실행하세요.
 ```python
-python train_dist.py --config_path /path/your/config_path
+python train_dist.py --[args]
 ```
 # 4. Inference
 학습이 완료되면 inference.ipynb를 참고하여 학습 완료된 모델의 가중치를 로드하여 추론을 수행할 수 있습니다.
