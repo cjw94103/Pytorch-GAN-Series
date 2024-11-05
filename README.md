@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 GAN (Generative Adversarial Network)의 Pytorch 구현 모음입니다. 모델 아키텍처는 논문의 내용대로 완전히 똑같이 구현되지는 않지만 학습 루프, 하이퍼파라미터 등 핵심 아이디어를 다루는데 집중합니다. 
-구현할 GAN의 종류는 아래와 같습니다. \\
+구현할 GAN의 종류는 아래와 같습니다. \
 
 - Noise to Image Translation
 - 2-Domain I2I Translation
