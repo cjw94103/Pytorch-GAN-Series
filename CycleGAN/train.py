@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--data_path", type=str, help="your custom dataset", default="./data/apple2orange/")
 parser.add_argument("--img_height", type=int, help="height of image", default=256)
 parser.add_argument("--img_width", type=int, help="width of image", default=256)
-parser.add_argument("--channels", type=int, help="channels of image", default=256)
+parser.add_argument("--channels", type=int, help="channels of image", default=3)
 
 ## data generator
 parser.add_argument("--num_workers", type=int, help="num workers of generator", default=0)
