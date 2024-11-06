@@ -1,7 +1,6 @@
 # 1. Introduction
-![att](https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/68764dd4-e4e8-4925-b054-277a307066a8)
-\
-\
+<p align="center"><img src="https://github.com/user-attachments/assets/9112c000-d439-4298-bfc9-e0e44e585c59" width="80%" height="80%"></p>
+
 AttentionGAN은 image-to-image translation 모델로 paired example 없이 $X$라는 domain으로부터 얻은 이미지를 target domain $Y$로 translation하는 방법입니다.
 AttentionGAN의 목표는 Adversarial Loss를 통해, $G(x)$로부터의 이미지 데이터의 분포와 $Y$로부터의 이미지 데이터의 분포를 구별할 수 없도록 forward mapping $G:X \to Y$을 학습하고 constraint를 위해 inverse mapping $F:Y \to X$를 학습합니다.
 image translation을 위하여 inverse mapping $F(G(x))$가 $x$와 같아지도록 Cycle Consistency Loss를 사용합니다.
@@ -42,12 +41,17 @@ python train_dist.py --[args]
 # 5. 학습 결과
 각 테스트 데이터셋에 대한 translation 결과를 보여줍니다.
 ## Apple2Orange
-![apple2orange](https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/a0ec14cd-b973-41fa-81db-8229bcce8a11)
+<p align="center"><img src="https://github.com/user-attachments/assets/9c1912b4-cfbd-4ded-8d75-e81ae7440b81" width="70%" height="70%"></p>
+
 ## Facade
-![facade](https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/ae0e3061-2ef0-40a6-85b5-12ea07ba3e53)
+<p align="center"><img src="https://github.com/user-attachments/assets/15f89430-9961-46a8-ac59-a7328ed21723" width="70%" height="70%"></p>
+
 ## Horse2Zebra
-![horse2zebra](https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/99cd6b6a-7b69-4158-a4f3-1a5a26a0b654)
+<p align="center"><img src="https://github.com/user-attachments/assets/82559b71-9650-4dce-bff1-3195624c0569" width="70%" height="70%"></p>
+
 ## Monet2Photo
-![monet2photo](https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/d3a3e115-f180-4e3b-8037-96c00af97f42)
+<p align="center"><img src="https://github.com/user-attachments/assets/9da5dab2-5436-4c04-b9fd-d9124737634b" width="70%" height="70%"></p>
+
 ## Summer2Winter
-![summer2winter](https://github.com/cjw94103/CycleGAN_reimpl/assets/45551860/cd5f982e-aece-46da-a54c-507ed3eaff53)
+<p align="center"><img src="https://github.com/user-attachments/assets/5458054f-8882-4b35-a043-2cbbe63434da" width="70%" height="70%"></p>
+
