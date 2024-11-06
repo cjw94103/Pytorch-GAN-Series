@@ -22,7 +22,7 @@ parser.add_argument("--img_width", type=int, help="width of image", default=256)
 parser.add_argument("--channels", type=int, help="channels of image", default=3)
 
 ## data generator
-parser.add_argument("--num_workers", type=int, help="num workers of generator", default=0)
+parser.add_argument("--num_workers", type=int, help="num workers of dataloader", default=0)
 parser.add_argument("--batch_size", type=int, help="num of batch size", default=8)
 
 ## model architecture
