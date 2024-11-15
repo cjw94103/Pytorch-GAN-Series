@@ -15,7 +15,7 @@ image translation을 위하여 inverse mapping $F(G(x))$가 $x$와 같아지도�
 - facade : https://www.kaggle.com/datasets/balraj98/facades-dataset
 - horse2zebra : https://www.kaggle.com/datasets/balraj98/horse2zebra-dataset
 - monet2photo : https://www.kaggle.com/datasets/balraj98/monet2photo
-- https://www.kaggle.com/datasets/balraj98/summer2winter-yosemite
+- summer2winter : https://www.kaggle.com/datasets/balraj98/summer2winter-yosemite
 
 \
 데이터셋의 폴더 구조는 아래와 같습니다.
