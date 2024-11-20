@@ -22,3 +22,4 @@ code의 각 GAN 모델에 대한 폴더를 들어가시면 학습 및 추론 방
   - UNIT
   - AttentionGAN
 - Multi-Domain I2I Translation
+  - MUNIT
