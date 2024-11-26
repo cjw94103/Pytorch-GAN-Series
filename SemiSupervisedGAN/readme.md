@@ -16,7 +16,10 @@ python train.py --[args]
 ```
 
 ## 3. Inference
-학습이 완료되면 inference.py를 참고하여 학습 완료된 모델의 가중치를 로드하여 추론을 수행할 수 있습니다.
+학습이 완료되면 inference.py를 이용하여 추론을 수행할 수 있습니다. args에 대한 자세한 내용은 inference.py를 참고해주세요.
+```python
+$ python inference.py --[args]
+```
 
 ## 4. MNIST Result
 <p align="center"><img src="https://github.com/user-attachments/assets/3fe40ab9-098d-4e2c-8a75-0669e27b068f" width="70%" height="70%"></p>
