@@ -36,7 +36,11 @@ python train.py --[args]
 python train_dist.py --[args]
 ```
 # 4. Inference
-학습이 완료되면 inference.ipynb를 참고하여 학습 완료된 모델의 가중치를 로드하여 추론을 수행할 수 있습니다.
+학습이 완료되면 inference.py를 이용하여 추론을 수행할 수 있습니다. args에 대한 자세한 내용은 inference.py를 참고해주세요.
+```python
+$ python inference.py --[args]
+```
+
 # 5. 학습 결과
 각 테스트 데이터셋에 대한 translation 결과를 보여줍니다.
 ## Apple2Orange
