@@ -19,7 +19,10 @@ DCGAN은 더 좋고 효율적인 이미지 생성을 위해 Naive GAN을 개선�
 python train.py --[args]
 ```
 ## 3. Inference
-학습이 완료되면 inference.py를 참고하여 학습 완료된 모델의 가중치를 로드하여 추론을 수행할 수 있습니다.
+학습이 완료되면 inference.py를 이용하여 추론을 수행할 수 있습니다. args에 대한 자세한 내용은 inference.py를 참고해주세요.
+```python
+$ python inference.py --[args]
+```
 
 ## 4. MNIST Result
 <p align="center"><img src="https://github.com/user-attachments/assets/c38ae6c0-be33-43e8-9ddb-1b9a66de1486" width="60%" height="60%"></p>
